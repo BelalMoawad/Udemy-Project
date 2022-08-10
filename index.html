@@ -8,52 +8,73 @@
     <link rel='stylesheet' href="styles.css"/>
 </head>
 <body>
+    <!--Nav Bar in large screen-->
     <nav class="nav big-screen">
-        <img src="images/logo_U.png" alt="logo">
-        <p class="Categories">Categories</p>
+        <a href="#">
+            <img src="images/logo.png" alt="logo" class="udemy-logo">
+        </a>
+        
+        <a class="Categories" href="#">Categories</a>
         <form action="" class="search-bar">
-            <button type="submit"> <img src="images/ser1-removebg-preview.png" alt="search"> </button>
-            <input type="text" placeholder="Search for anything" name="q">
+            <a href="#"> 
+                <img  src="images/ser1-removebg-preview.png" alt="search" class="otherImagesInNavBar">
+            </a>
+            <input type="search" placeholder="Search for anything" name="search">
         </form>
-        <button type = "submit", class = "Submit"><p>Submit</p></button>
-        <p class = "Categories">Udemy Business</p>
-        <p class = "Categories">Teach on Udemy</p>
-        <img src = "images/bycle.PNG" alt = "logo">
-        <button type = "submit", class = "Submit"><p>Log in</p></button>
-        <button type = "submit", class = "Submit logout"><p>Log out</p></button>
-        <button type="submit" class = "world"> <img src="images/world.PNG" alt="world"> </button>
+        <button type = "submit", class = "Submit">Submit</button>
+        <a class="Categories" href="#">Udemy Business</a>
+        <a class="Categories" href="#">Teach on Udemy</a>
+        <a href="#">
+            <img src = "images/bycle.PNG" alt = "logo" class="otherImagesInNavBar">
+        </a>
+        <a href="#">
+            <button type = "submit", class = "Submit">Log in</button>
+        </a>
+        <a href="#">
+            <button type = "submit", class = "Submit signup">Sign up</button>
+        </a>
+        <a href="#">
+            <button type="submit" class = "lang"> <img src="images/language.png" alt="lang" class="otherImagesInNavBar"> </button>
+        </a>
     </nav>
+
+    <!--Nav Bar in small-screen-->
 
     <nav class = "nav2 small-screen">
-        <img src="images/dashes1-removebg-preview.png" alt="dashes"/>
-        <img src="images/logo_U.png" alt="logo">
+        <a href="#">
+            <img src="images/Dash.png" alt="dashes"  class="Dash2"/>
+        </a>
+        <a href="#">
+            <img src="images/logo.png" alt="logo" class="udemy-logo2">
+        </a>
     </nav>
-
+    <!--Alarm Part big-screen-->
     <div class = "AlarmContainer big-screen">  
         <div class = "text">
             <h1>New to Udemy? Lucky you.</h1>
             <p class = "line"> Courses start at E£169.99. Get your new-student offer before it expires. </p>
-        </div>  
+        </div>
         <img src="images/alarm_11-removebg-preview.png" alt="alarm" />    
     </div>
-    
+    <!--Alarm Part small-screen-->
     <div class="container2 small-screen">
         <div class = "AlarmContainer2">
         <img src="images/alarm_11-removebg-preview.png" alt="alarm" />
         </div>
-        <div class = "text">
+        <div class = "text2">
             <h1>New to Udemy? Lucky you.</h1>
             <p class = "line"> Courses start at E£169.99. Get your new-student offer before it expires. </p>
         </div>
     </div>
     
+    <div class="selection">
+        <h1>A broad selection of courses<br/></h1>
+        <p class="paragraph">Choose from 185,000 online video courses
+            with new additions published every month </p>   
+    </div>
+
     <div class="cources">
-        <div class="selection">
-            <h1>A broad selection of courses<br/></h1>
-            <p class="paragraph">Choose from 185,000 online video courses
-                with new additions published every month </p>   
-        </div>
- 
+
         <div class="python">
             <h2>Expand your career opportunities with Python</h2>
             <p>
@@ -64,36 +85,35 @@
             <button type="submit" class="ButtonPython"><h5>Explore Python</h5></button>
             <div class="listOfPythonCources">
                 <div class="pythonCource">
-                    <img src="images/Course1.PNG" alt="course1">
-                    <h4>Learn Python: The Complete<br/> Python Programming <br/>Course</h4>
+                    <img src="images/Course1.PNG" alt="course1" class = "courcesPhotos">
+                    <h4>Learn Python: The Complete<br/> Python Programming Course</h4>
                     <p id="instructor">Avinash Jain, The Codex</p>
                     <img src="images/C1.PNG"/>
                     <h4>E£679.99</h4>
-                    
                 </div>
                 <div class="pythonCourse">
-                    <img src="images/Course2.PNG" alt="course1">
+                    <img src="images/Course2.PNG" alt="course2" class = "courcesPhotos">
                     <h4>Learning Python for Data Analysis<br/> and Visualization</h4>
                     <p id="instructor">Jose Portilla</p>
                     <img src="images/C2.PNG"/>
                     <h4>E£1,599.99</h4>
                 </div>
                 <div class="pythonCourse">
-                    <img src="images/Course3.PNG" alt="course1">
+                    <img src="images/Course3.PNG" alt="course3" class = "courcesPhotos">
                     <h4>Python for Beginners - Learn<br/> Programming from scratch</h4>
                     <p id="instructor">Edwin Diaz</p>
                     <img src="images/C3.PNG"/>
                     <h4>E£429.99</h4>
                 </div>
                 <div class="pythonCourse">
-                    <img src="images/Course4.PNG" alt="course1">
+                    <img src="images/Course4.PNG" alt="course4" class = "courcesPhotos">
                     <h4>Learn Python: Python for Beginners</h4>
                     <p id="instructor">Abrar Hussin</p>
                     <img src="images/C4.PNG"/>
                     <h4>E£319.99</h4>
                 </div>
                 <div class="pythonCourse">
-                    <img src="images/Course5.PNG" alt="course1">
+                    <img src="images/Course5.PNG" alt="course5" class = "courcesPhotos">
                     <h4>Python for Data Structures, Algorithms,<br/> and Interviews!/h4>
                     <p id="instructor">Jose Portilla</p>
                     <img src="images/C5.PNG"/>
