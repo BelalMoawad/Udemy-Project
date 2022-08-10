@@ -1,0 +1,207 @@
+/* Navigation Bar part in css */
+.nav {
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    width: 99%;
+    box-shadow: 0 -8px 0px 0 rgb(0 0 0 / 0%), 0 0px 16px 0 rgb(0 0 0 / 19%);
+}
+
+.Categories {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    padding-right: 20px;
+    padding-top: 10px;
+} 
+
+.search-bar {
+    border: black 1px solid;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 210px;
+    background-color: #F8F9F9;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    flex-grow: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder{
+    color:  black;
+}
+
+.search-bar button img {
+    width: 30px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 40%;
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.Submit {
+    padding: 4px 20px;
+    margin: 10px;
+    font-size: large;
+    background-color: white;
+    border-radius: 0;
+}
+
+.logout {
+    color: white;
+    background-color: black;
+}
+
+.world {
+    background-color: white;
+    height: 60px;
+    border-radius: 0;
+}
+
+/* Second Part(Alarm) in css*/
+.nav2 {
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    width: 99%;
+    box-shadow: 0 -8px 0px 0 rgb(0 0 0 / 0%), 0 0px 16px 0 rgb(0 0 0 / 19%);
+}
+
+/*large screen */
+.AlarmContainer {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.AlarmContainer .text {
+    overflow: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 250px;
+    padding: 10px;
+    padding-bottom: 30px;
+    height: fit-content;
+    width: 400px;
+    box-shadow: 0 -8px 0px 0 rgb(0 0 0 / 0%), 0 0px 16px 0 rgb(0 0 0 / 19%);
+}
+
+.AlarmContainer .text .line {
+    font-size: 20px;
+    font-style: normal;
+}
+
+/*small screen */
+.container2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.AlarmContainer2 {
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 422px;
+}
+.small-screen .text {
+    
+    overflow: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 250px;
+    padding: 0px;
+    padding-bottom: 30px;
+    height: fit-content;
+    width: 400px;
+    box-shadow: 0 -8px 0px 0 rgb(0 0 0 / 0%), 0 0px 16px 0 rgb(0 0 0 / 19%);
+}
+
+.small-screen .text .line {
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+/*Third Part in css*/
+
+.paragraph {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.cources {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.cources .selection {
+    margin-right: 360px;
+}
+
+.cources .python {
+    border : black solid 0.3px; 
+    padding: 10px;
+}
+
+.cources .python .ButtonPython {
+    background-color: #F8F9F9;
+    height: 55px;
+    margin: 10px;
+}
+
+.cources .python .listOfPythonCources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 10px;
+    gap:12px;
+}
+
+#instructor {
+    color: gray;
+}
+
+@media only screen and (max-width: 1060px) {
+    .big-screen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1060px) {
+    .small-screen {
+        display: none;
+    }
+}
