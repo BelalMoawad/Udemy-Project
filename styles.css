@@ -225,7 +225,7 @@ a:hover {
     justify-content: space-around;
     align-items: flex-start;
     margin-left: 10px;
-    gap:12px;
+    gap:25px;
 }
 
 .cources .python .listOfPythonCources .courcesPhotos {
@@ -238,9 +238,17 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1230px) {
     .cources .python .listOfPythonCources {
         justify-content: flex-start;
+    }
+    .cources .python .listOfPythonCources .courcesPhotos {
+        width: 260px;
+        height: 150px;
+    }
+    .cources .python .listOfPythonCources {
+        gap: 30px;
+        margin-left: 15px;
     }
 }
 
