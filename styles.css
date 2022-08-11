@@ -15,8 +15,6 @@
     margin-right: 0.5rem;
 }
 
-
-
 .nav .otherImagesInNavBar {
     width: 1.5rem;
 }
@@ -224,7 +222,7 @@ a:hover {
 .cources .python .listOfPythonCources {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-around;
     align-items: flex-start;
     margin-left: 10px;
     gap:12px;
@@ -238,6 +236,14 @@ a:hover {
 #instructor {
     color: gray;
 }
+
+
+@media only screen and (min-width: 1200px) {
+    .cources .python .listOfPythonCources {
+        justify-content: flex-start;
+    }
+}
+
 
 @media only screen and (max-width: 1130px) {
     .Categories {
