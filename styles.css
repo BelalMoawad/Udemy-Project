@@ -128,8 +128,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .AlarmContainer .text {
@@ -155,8 +155,7 @@ a:hover {
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: auto; 
 }
 
 .AlarmContainer2 {
@@ -165,8 +164,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: auto;
 }
 .small-screen .text2 {
     overflow: auto;
