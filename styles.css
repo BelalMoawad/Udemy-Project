@@ -198,6 +198,28 @@ a:hover {
     font-style: normal;
 }
 
+.container_of_cources {
+    background-color: white;
+    margin: 10px;
+}
+
+.container_of_cources li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.container_of_cources li button {
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+.container_of_cources li button:hover {
+    font-size: large;
+}
+
 .cources {
     height: fit-content;
     justify-content: center;
@@ -217,17 +239,20 @@ a:hover {
     margin: 10px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
 .pythonCards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
     align-items:flex-start;
-    margin-right: 10px;
-    gap:15px;
+    margin-right: 20px;
+    gap: auto;
 }
 
 .pythonCard {
-    width: 300px;
     height: inherit;
 }
 
@@ -240,11 +265,10 @@ a:hover {
     color: black;
 }
 .pythonCard a:hover {
-    color: #5900cf;
+    color: black;
 }
 
 .pythonCard img { 
-    width: 270px;
     height: 150px;
 }
 
